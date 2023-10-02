@@ -1,0 +1,79 @@
+{
+  "aqua": {
+    "homePage": {
+      "top-banner-section": {
+        "top-banner-container": {
+          "display": "flex",
+          "flexDirection": "column",
+          "rowGap": "20px",
+          "padding": "0.5rem 1rem"
+        },
+        "top-banner-heading": {
+          "marginBottom": "1rem",
+          "color": "blue"
+        },
+        "top-banner-image": {
+          "width": "500px"
+        }
+      },
+      "trending-products-section": {
+        "trending-products-container": {
+          "display": "flex",
+          "flexDirection": "column"
+        },
+        "trending-products-heading": {
+          "marginBottom": "1rem",
+          "color": "red"
+        },
+        "trending-products-items-container": {
+          "display": "flex",
+          "justifyContent": "space-evenly"
+        },
+        "trending-products-items": {
+          "width": "200px",
+          "border": "1px solid black"
+        }
+      }
+    }
+  },
+  "ocean": {
+    "homePage": {
+      "top-banner-section": {
+        "top-banner-container": {
+          "display": "flex",
+          "flexDirection": "column",
+          "rowGap": "20px",
+          "padding": "0.5rem 1rem",
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "top-banner-heading": {
+          "marginBottom": "1rem",
+          "color": "blue"
+        },
+        "top-banner-image": {
+          "width": "500px"
+        }
+      },
+      "trending-products-section": {
+        "trending-products-container": {
+          "display": "flex",
+          "flexDirection":"column"
+        },
+        "trending-products-heading": {
+          "marginBottom": "1rem",
+          "color": "red"
+        },
+        "trending-products-items-container": {
+          "display": "flex",
+          "flexDirection": "row-reverse",
+          "justifyContent": "space-evenly"
+        },
+        "trending-products-items": {
+          "width": "200px",
+          "border": "1px solid black"
+        }
+      }
+    }
+  }
+}

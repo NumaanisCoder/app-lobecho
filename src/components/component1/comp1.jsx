@@ -1,13 +1,16 @@
-import React from 'react'
-import './comp1.css';
+import React from 'react';
 
-const Comp1 = () => {
+const Comp1 = ({themeData}) => {
+  const topBannerContainer = themeData?.['top-banner-container'] || {};
+  const topBannerHeading = themeData?.['top-banner-heading'] || {};
+  const topBannerImage = themeData?.['top-banner-image'] || {};
+
   return (
-    <div>
-      <h1>comp1</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus sequi earum quasi fugit maxime consectetur dolorem aliquid, commodi minima labore autem qui molestiae voluptate harum obcaecati odio unde, neque nostrum. Explicabo iusto quae deleniti, a nobis sunt earum quisquam illo quaerat perferendis harum quo?</p>
+    <div style={topBannerContainer}>
+      <h1 style={topBannerHeading}>Banner</h1>
+      <img style={topBannerImage} src="images/top-banner-deals.webp" alt="" />
     </div>
   )
 }
 
-export default Comp1
+export default Comp1;
