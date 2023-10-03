@@ -15,8 +15,11 @@ function App() {
 
   return (
     <div className="App">
+      <div style={themeData?.homePage?.layout}>
       <Comp1 themeData={themeData?.homePage?.['top-banner-section']} />
       <Comp2 themeData={themeData?.homePage?.['trending-products-section']}/>
+      </div>
+      
       <div style={{ display: "flex", flexDirection: "column", rowGap: "2rem" }}>
         <h2>Choose themes</h2>
         <div style={{ display: "flex", columnGap: "1rem" }}>
